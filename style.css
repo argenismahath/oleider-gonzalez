@@ -1,0 +1,226 @@
+.clearfix{
+    clear: both;
+    float: none;
+}
+::-webkit-scrollbar {display: none;}
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 100vw;
+    scrollbar-width: none;
+}
+body{
+    background:  linear-gradient(90deg, #000007,#00001d , #000007);    
+    background-attachment: fixed;
+    overflow-x: hidden;
+    margin-left: 80px;
+    margin-right: 70px;
+}
+p,a,h1{
+    color: white;
+}
+
+#header{
+    height: 80px;
+    width: 100vw;
+    top: 40px;
+    position: fixed;
+    display: flex;
+}
+
+#aboutMe{
+    height: 100vh;
+    margin-top: 120px;
+}
+
+.imageSkills, .imageSkills1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icon-cog{
+    color: white;
+    font-size: 35px;
+}
+
+#name{
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 10px;
+}
+.links{
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+    position: fixed;
+    top: 45px;
+}
+
+#project{
+    right: 280px;
+}
+
+#about{
+    right: 150px;
+}
+
+#aboutMe{
+    display: block;
+}
+
+
+h1{
+    font-family: 'Playfair Display', Georgia;
+    font-size: 100px;
+    font-weight: 500;
+}
+
+#aboutMe h1 img{
+    margin-top: 50px;
+    width: 150px;
+}
+
+#aboutMe nav{
+    display: block;
+    float: right;
+    width: 50%;
+    margin-top: 180px;
+}
+
+ #about2{
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    font-size:30px ;
+    font-weight:500;
+    letter-spacing: 1.5px;
+ }
+
+#projects{
+    display: block;
+    margin-top: 200px;
+}
+
+#projects>p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.Benyotitle{
+    position:block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    margin-left: 15%;
+    font-size: 60px;
+    font-family: 'Playfair Display', Georgia;
+}
+
+#p2{
+    text-indent: 30px;
+    margin-bottom: 30px;
+}
+#cabanaBenyo img{
+    width: 49%;
+    border-radius: 20px;
+}
+
+#cabanaBenyo nav{
+    display: block;
+    float: right;
+    width: 50%;
+    margin-left: -100px;
+}
+
+#cabanaBenyo nav p,a, #portafolio nav p, a{
+    display: block;
+    font-family: 'Urbanist', sans-serif;
+    text-transform: uppercase;
+    text-justify:distribute-all-lines;
+    font-size:25px ;
+    font-weight:500;
+    letter-spacing: 1.2px;
+}
+
+#cabanaBenyo nav a, #portafolio nav a{
+    margin-top: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+#portafolio{
+    display: block;
+    float: right;
+    width: 100%;
+    margin-top: 300px;
+    margin-bottom: 60px;
+}
+#portafolio img{
+    width: 49%;
+    float: right;
+    box-shadow: 0px 0px 4px rgba(87, 87, 87, 0.801);
+    border-radius: 20px;
+}
+
+#portafolio nav{
+    width: 50%;
+}
+
+#skills{
+    margin-top: 60px;
+    font-family: 'Playfair Display', Georgia;
+    font-size: 35px;
+    font-weight: 500; 
+    text-align: center;
+}
+
+.imageSkills2{
+    border-radius: 50%;
+}
+
+.imageSkills2:nth-child(2){
+    border-radius: 10px;
+    background-color: rgb(63, 62, 62);
+}
+
+#Cv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#Cv nav{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+    background-color: rgb(26, 27, 58);
+    border-radius: 20px;
+    border: 1px solid rgb(26, 27, 58);
+    box-shadow: 0px 0px 3px rgb(26, 27, 58);
+}
+
+#Cv nav i{
+    font-size: 55px;
+}
+
+#Cv nav a{
+    font-size: 40px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.material-icons{
+    color: blanchedalmond;
+}
+
+.imageSkills1{
+    margin-top: 100px;
+}
