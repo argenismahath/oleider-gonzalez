@@ -76,6 +76,9 @@ p,a,h1{
 
 
 h1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
     font-family: 'Playfair Display', Georgia;
     font-size: 100px;
     font-weight: 500;
