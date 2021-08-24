@@ -17,3 +17,13 @@ window.addEventListener('resize', function(event){
 });
 
 
+// animacionea
+
+var tl = gsap.timeline();
+window.onscroll = function() {
+    var y = window.scrollY;
+    console.log(y);
+    gsap.to(".icon-cog",{duration:"1.5", rotate:y});
+
+};
+

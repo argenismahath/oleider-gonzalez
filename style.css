@@ -33,6 +33,8 @@ p,a,h1{
 }
 
 .icon-cog{
+    display: block;
+    position:fixed;
     color: white;
     font-size: 35px;
 }
@@ -56,7 +58,7 @@ p,a,h1{
 #name{
     font-size: 20px;
     line-height: 30px;
-    margin-left: 10px;
+    margin-left: 40px;
 }
 .links{
     text-decoration: none;
