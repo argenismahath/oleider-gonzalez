@@ -14,7 +14,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="fonts/styleicon.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" media="(max-width: 750px)" href="cssphone.css" />
 
 </head>
 
@@ -25,6 +26,10 @@
         <p id="name">OLEIDER GONZALEZ</p>
 
         <!-- link -->
+        <span id="icoMenu" class="material-icons">
+            list
+        </span>
+
         <a id="project" class="links" href="#projects">
             <p>TRABAJOS</p>
         </a>
@@ -36,7 +41,7 @@
 
     <section id="aboutMe">
 
-        <h1>SOY OLEIDER GONZÁLEZ FRONT-END<img src="IM_0912.png">DEVELOPER</h1>
+        <h1 id="h1">SOY OLEIDER GONZÁLEZ FRONT-END<img src="IM_0912.png">DEVELOPER</h1>
         <nav>
             <p id="about2">Oleider es un estudiante y creador de sitios web front-end con bases en el back-end, con 1+
                 año de
@@ -50,7 +55,7 @@
         <p>PROYECTOS REALIZADOS</p>
         <br>
         <nav id="cabanaBenyo">
-            <p class="Benyotitle">LA CABAÑA </p> <br>
+            <p class="Benyotitle">LA CABAÑA </p> 
             <p id="p2" class="Benyotitle">DE BENYO</p>
             <img src="evidencia/cabana_benyo.PNG" alt="">
             <nav>
@@ -93,7 +98,7 @@
         <img class="imageSkills1" src="skill/js.png" alt="">
     </nav>
 
-    <nav class="imageSkills1">
+    <nav class="imageSkillsw">
         <img class="imageSkills2" src="skill/python.png" alt="">
         <img class="imageSkills2" src="skill/flask.png" alt="">
         <img class="imageSkills2" src="skill/git.png" alt="">
@@ -105,7 +110,7 @@
 
         <nav id="Cv">
             <nav>
-                <i class="material-icons" ;>file_download</i>
+                <i class="material-icons">file_download</i>
                 <a href="cv/curriculum.pdf" download="cv_oleider_2021">DESCARGAR CV</a>
             </nav>
         </nav>
@@ -115,6 +120,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

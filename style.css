@@ -32,22 +32,26 @@ p,a,h1{
     display: flex;
 }
 
+.icon-cog{
+    color: white;
+    font-size: 35px;
+}
+
+#header span{
+    position: fixed;
+    color: white;
+    display: none;
+    font-size: 45px;
+    top: 30px;
+    right:50px;
+}
+
 #aboutMe{
     height: 100vh;
     margin-top: 120px;
 }
 
-.imageSkills, .imageSkills1{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
 
-.icon-cog{
-    color: white;
-    font-size: 35px;
-}
 
 #name{
     font-size: 20px;
@@ -97,13 +101,13 @@ h1{
 }
 
  #about2{
-    font-family: 'Urbanist', sans-serif;
-    text-transform: uppercase;
-    font-size:30px ;
-    font-weight:500;
-    letter-spacing: 1.5px;
- }
-
+     font-family: 'Urbanist', sans-serif;
+     text-transform: uppercase;
+     font-size:30px ;
+     font-weight:500;
+     letter-spacing: 1.5px;
+    }
+    
 #projects{
     display: block;
     margin-top: 200px;
@@ -183,6 +187,13 @@ h1{
     text-align: center;
 }
 
+.imageSkills, .imageSkillsw{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .imageSkills2{
     border-radius: 50%;
 }
@@ -204,6 +215,7 @@ h1{
     justify-content: center;
     align-items: flex-end;
     width: 50%;
+    min-width: 390px;
     background-color: rgb(26, 27, 58);
     border-radius: 20px;
     border: 1px solid rgb(26, 27, 58);
@@ -224,6 +236,6 @@ h1{
     color: blanchedalmond;
 }
 
-.imageSkills1{
+.imageSkills1,.imageSkills2{
     margin-top: 100px;
 }
