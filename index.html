@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" media="(max-width: 750px)" href="cssphone.css" />
+    <!-- ease scroll -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
 
 </head>
 
@@ -55,30 +58,30 @@
         <p>PROYECTOS REALIZADOS</p>
         <br>
         <nav id="cabanaBenyo">
-            <p class="Benyotitle">LA CABAÑA </p> 
+            <p class="Benyotitle">LA CABAÑA </p>
             <p id="p2" class="Benyotitle">DE BENYO</p>
-            <img src="evidencia/cabana_benyo.PNG" alt="">
+            <img id="imgBenyo" src="evidencia/cabana_benyo.PNG" alt="">
             <nav>
                 <!-- <nav> -->
-                <p>sitio web para restaurante local creado para brindar informacion a los comenzales</p>
+                <p id="pImgBenyo" >sitio web para restaurante local creado para brindar informacion a los comenzales</p>
                 <!-- botenes para ver proyecto y repocitorio -->
 
-                <a href="#">ver repocitorio</a>
-                <a href="#">ver web</a>
+                <a class="aBenyo" href="#">ver repocitorio</a>
+                <a class="aBenyo" href="#">ver web</a>
                 <!-- </nav> -->
             </nav>
         </nav>
 
         <nav id="portafolio">
-            <img src="evidencia/portafolio.PNG" alt="">
+            <img id="imgPortafolio" src="evidencia/portafolio.PNG" alt="">
             <nav>
-                <p>portafolio de proyectos creado con HTML5 CSS JS y librerias</p>
+                <p id="pPortafolio" >portafolio de proyectos creado con HTML5 CSS JS y librerias</p>
                 <!-- botenes para ver proyecto y repocitorio -->
 
                 <br>
-                <a href="#">ver repocitorio</a>
+                <a class="aPortafolio" href="#">ver repocitorio</a>
                 <br>
-                <a href="#">ver web</a>
+                <a class="aPortafolio" href="#">ver web</a>
             </nav>
         </nav>
         <nav class="clearfix"></nav>
@@ -118,9 +121,12 @@
     </section>
 
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
-    <script src="main.js"></script>
+
     <script src="script.js"></script>
+
+
 </body>
 
 </html>
