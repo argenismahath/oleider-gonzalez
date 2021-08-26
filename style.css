@@ -39,6 +39,41 @@ p,a,h1{
     font-size: 35px;
 }
 
+#arrowMenu{
+    display: block;
+    position:fixed;
+    font-size: 35px;  
+    color: white;
+    font-size: 45px;
+    top: 30px;
+    right:100px;
+}
+
+#circlenavmenu{
+    display: block;
+    position:fixed;
+    cursor: pointer;
+    top: 33px;
+    right:102px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgba(16, 36, 170, 0.669)
+}
+
+.navArrowMenuDisplay{
+    display: block;
+    position: fixed;
+    top: 75px;
+    right: 50px;
+    transition: all 500ms ease-in;
+    height: 150px;
+    width: 150px;
+    backdrop-filter: blur(10px);
+    z-index: 6;
+    box-shadow: 0px 0px 6px rgba(79, 132, 230, 0.494);
+    border-radius: 20px;
+}
 #header span{
     position: fixed;
     color: white;
@@ -52,8 +87,6 @@ p,a,h1{
     height: 100vh;
     margin-top: 120px;
 }
-
-
 
 #name{
     font-size: 20px;
@@ -70,11 +103,11 @@ p,a,h1{
 }
 
 #project{
-    right: 280px;
+    right: 298px;
 }
 
 #about{
-    right: 150px;
+    right: 160px;
 }
 
 #aboutMe{
@@ -241,4 +274,24 @@ h1{
 
 .imageSkills1,.imageSkills2{
     margin-top: 100px;
+}
+#DisplayMenu{
+    display: none;
+    transition: all 500ms ease-in;
+}
+
+#DisplayMenu p a, #DisplayMenu p{
+    transition: all 500ms ease-in;
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size:20px ;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+#DisplayMenu a:hover{
+    transform: scale(1.2, 1.2);
 }
