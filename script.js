@@ -32,9 +32,9 @@ ScrollReveal().reveal('#imgBenyo', { delay: 500 });
 ScrollReveal().reveal('#pImgBenyo', { delay: 500 });
 ScrollReveal().reveal('.aBenyo', { delay: 500 });
 
-ScrollReveal().reveal('#portafolio', { delay: 500 });
-ScrollReveal().reveal('#imgPortafolio', { delay: 500 });
-ScrollReveal().reveal('#pPortafolio', { delay: 500 });
+ScrollReveal().reveal('#portafolio', { delay: 200 });
+ScrollReveal().reveal('#imgPortafolio', { delay: 300 });
+ScrollReveal().reveal('#pPortafolio', { delay: 300 });
 ScrollReveal().reveal('.aPortafolio', { delay: 500 });
 
 ScrollReveal().reveal('#skills', { delay: 500 });
