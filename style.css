@@ -61,19 +61,6 @@ p,a,h1{
     background-color: rgba(16, 36, 170, 0.669)
 }
 
-.navArrowMenuDisplay{
-    display: block;
-    position: fixed;
-    top: 75px;
-    right: 50px;
-    transition: all 500ms ease-in;
-    height: 150px;
-    width: 150px;
-    backdrop-filter: blur(10px);
-    z-index: 6;
-    box-shadow: 0px 0px 6px rgba(79, 132, 230, 0.494);
-    border-radius: 20px;
-}
 #header span{
     position: fixed;
     color: white;
@@ -275,11 +262,11 @@ h1{
 .imageSkills1,.imageSkills2{
     margin-top: 100px;
 }
-#DisplayMenu{
-    display: none;
-    transition: all 500ms ease-in;
-}
 
+
+#DisplayMenu a:hover{
+    transform: scale(1.2, 1.2);
+}
 #DisplayMenu p a, #DisplayMenu p{
     transition: all 500ms ease-in;
     font-family: Georgia;
@@ -291,7 +278,18 @@ h1{
     font-weight: 500;
     letter-spacing: 1.5px;
 }
+#DisplayMenu{
+    display: none;
+}
 
-#DisplayMenu a:hover{
-    transform: scale(1.2, 1.2);
+.navArrowMenuDisplay{
+    display: block;
+    position: fixed;
+    top: 75px;
+    right: 50px;
+    height: 150px;
+    width: 150px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 6px rgba(79, 132, 230, 0.494);
+    border-radius: 20px;
 }

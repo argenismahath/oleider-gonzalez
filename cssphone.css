@@ -112,3 +112,42 @@ body{
 #Cv nav i{
     font-size: 25px;
 }
+
+#DisplayMenu p:first-child{
+    margin: 0px auto;
+    border-bottom: 2px solid white;
+    width: 200px;
+}
+
+#circlenavmenu{
+    display: none;
+}
+
+.links_menu_display {
+    font-family: Georgia;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    font-size:20px ;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+}
+
+.navArrowMenuDisplay{
+    transition: all 2s ease;
+    position: fixed;
+    right:0px;
+    top: 70px;
+    height: 90vh;
+    width: 100vw;
+    box-shadow:0px 0px 8px rgba(79, 132, 230, 0.494) inset;
+}
+#DisplayMenu nav{
+    margin-bottom: 30px;
+}
+
+#idiomap{
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.767);
+}
