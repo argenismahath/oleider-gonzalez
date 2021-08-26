@@ -57,6 +57,7 @@ p,a,h1{
 
 #name{
     font-size: 20px;
+    letter-spacing: 1px;
     line-height: 30px;
     margin-left: 40px;
 }
