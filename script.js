@@ -5,14 +5,14 @@ window.addEventListener('resize', function (event) {
     if (newWidth < 751) {
     }
     else {
-        
+
     }
-    
+
 
 });
 
 // menudesplegablecell
-let MenuPhoneDisplay =document.getElementById('icoMenu');
+let MenuPhoneDisplay = document.getElementById('icoMenu');
 MenuPhoneDisplay.addEventListener('click', navMenu);
 
 // animacionea
@@ -70,8 +70,15 @@ document.getElementById("circlenavmenu").addEventListener("click", navMenu);
 var backgnav = document.getElementById('circlenavmenu');
 
 function navMenu() {
-
     let menu = document.getElementById('DisplayMenu');
+
+    //Check if browser is Firefox 
+    if (navigator.userAgent.search("Firefox") >= 0) {
+        // insert conditional Firefox Code here
+        console.log('you´r in firefox');
+        menu.style.backgroundColor='rgba(26, 49, 77, 0.8)';
+    }
+
 
 
     let togle = menu.classList.toggle('navArrowMenuDisplay');

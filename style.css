@@ -282,6 +282,10 @@ h1{
     display: none;
 }
 
+#DisplayMenu nav{
+    display: none;
+}
+
 .navArrowMenuDisplay{
     display: block;
     position: fixed;
