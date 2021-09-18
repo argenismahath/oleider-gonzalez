@@ -2,14 +2,8 @@ window.addEventListener('resize', function (event) {
     let newWidth = window.innerWidth;
     let newHeight = window.innerHeight;
     console.log(newWidth);
-    if (newWidth < 751) {
-    }
-    else {
-
-    }
-
-
 });
+
 
 // menudesplegablecell
 let MenuPhoneDisplay = document.getElementById('icoMenu');

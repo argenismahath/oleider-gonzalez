@@ -1,0 +1,12 @@
+.container-chat{
+height: 100vh !important;
+width: 100vw !important;
+}
+
+.chat {
+	height: 99% !important;
+	width: 90%;
+} 
+input{
+    width: 90%;
+}
