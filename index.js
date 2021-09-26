@@ -7,6 +7,14 @@ document.addEventListener("DOMContentLoaded", () => {
       output(input);
     }
   });
+  const inputField2 = document.getElementById("submit");
+  inputField2.addEventListener("click", (e) => {
+    if (e.code === "click") {
+      let input = inputField.value;
+      inputField.value = "";
+      output(input);
+    }
+  });
 });
 
 function output(input) {
@@ -138,6 +146,9 @@ if (positionsx>751) {
   getchat.style.top= top_p+'px' ;
   getchat.style.left= left_p+'px' ;
 }else{
-  getchat.style.bottom='1px';
-  getchat.style.left='1px';
+  barraChat.style.top= positionsy*90/100+'px';
+  barraChat.style.left= positionsx*10/100+'px' ;
+
+  getchat.style.top= 20+'px' ;
+  getchat.style.left= 0+'px' ;
 }
