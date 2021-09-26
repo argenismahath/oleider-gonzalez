@@ -129,6 +129,7 @@ let left_p=(positionsx *74/100);
 console.log(top_p);
 
 // set position chat
+// s
 
 if (positionsx>751) {
   barraChat.style.top= positionsy*90/100+'px';

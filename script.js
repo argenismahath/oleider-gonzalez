@@ -19,7 +19,7 @@ window.onscroll = function () {
 };
 
 // Animation
-
+//hh
 ScrollReveal().reveal('#aboutMe', { delay: 500 });
 ScrollReveal().reveal('#about2', { delay: 700 })
 ScrollReveal().reveal('#projects', { delay: 500 });
