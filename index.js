@@ -90,7 +90,6 @@ function addChat(input, product) {
   // Fake delay to seem "real"
   setTimeout(() => {
     botText.innerText = `${product}`;
-    textToSpeech(product)
   }, 2000
   )
 
@@ -103,13 +102,38 @@ let positionsy=window.innerHeight;
 console.log(positionsx, positionsy);
 
 let getchat= document.querySelector('.container-chat');
-console.log(getchat);
+let barraChat= document.querySelector('#barra-Chat');
+let down= document.querySelector('#header_bot');
+
+barraChat.addEventListener('click', chat);
+down.addEventListener('click', chat);
+
+let put= 0;
+function chat() {
+  if (put===0){
+  getchat.style.display='flex';
+  barraChat.style.display='none';
+  put=1;
+}else{
+  getchat.style.display='none';
+  barraChat.style.display='block';
+  put=0;
+}
+}
+
+console.log(getchat, barraChat);
 
 
-let top_p=(positionsy * 40 / 100) ;
+let top_p=(positionsy * 34 / 100) ;
 let left_p=(positionsx *74/100);
 console.log(top_p);
+
+// set position chat
+
 if (positionsx>751) {
+  barraChat.style.top= positionsy*90/100+'px';
+  barraChat.style.left= left_p+'px' ;
+
   getchat.style.top= top_p+'px' ;
   getchat.style.left= left_p+'px' ;
 }else{
