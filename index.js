@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
   const inputField2 = document.getElementById("submit");
-  inputField2.addEventListener("click", (e) => {
-    if (e.code === "click") {
+  inputField2.addEventListener("click", () => {
+    
       let input = inputField.value;
       inputField.value = "";
       output(input);
-    }
+    
   });
 });
 
