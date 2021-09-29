@@ -31,8 +31,10 @@ function output(input) {
     .replace(/i feel /g, "")
     .replace(/whats/g, "what is")
     .replace(/please /g, "")
-    .replace(/ please/g, "")
+    .replace(/ please/g, "") 
     .replace(/r u/g, "are you");
+
+    console.log(text);
 
   if (compare(prompts, replies, text)) { 
     // Search for exact match in `prompts`
