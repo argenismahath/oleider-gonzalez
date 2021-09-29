@@ -76,6 +76,30 @@ input {
 	padding: 15px; 
 	margin-left: auto;
 	border-radius: 10px; 
+	float: left;
+	margin-right: 3px;
+}
+
+#submit{
+	display: block;
+	float: right;
+	margin-left: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+#submit_icon{
+	font-size: 20px;
+	color: #000;
+	font-weight: bold;
+}
+
+#submit:active{
+	background-color: #000;
+}
+
+#submit:active #submit_icon{
+	color: #fff;
 }
 
 .messages-chat {
