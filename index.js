@@ -24,8 +24,9 @@ function output(input) {
   // Trim trailing whitespce
   // Remove digits - not sure if this is best
   // But solves problem of entering something like 'hi1'
+  console.log(input);
 
-  let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
+  let text = input.toLowerCase().replace(/[&\/\\#,+()$~%.'":*?<>{}]/g, '').replace(/[\d]/gi, "").trim();
   text = text
     .replace(/ a /g, " ")   // 'tell me a story' -> 'tell me story'
     .replace(/i feel /g, "")
