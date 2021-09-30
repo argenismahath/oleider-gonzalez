@@ -27,8 +27,8 @@ const prompts = [
   [""],
   ["jaja","ja","lol","hehe","divertido","chiste"],
   ["que estudios tienes","que estudias","cuales son tus estudios","cual es tu nivel de estudio"],
-  ["en que semestre vas","cuanto tiempo tienes estudiando","cuanto tiempo llevas estudiando"],
-  ["que lenguajes de programacion sabes","cuales lenguajes sabes"],
+  ["en que semestre vas","cuanto tiempo tienes estudiando","cuanto tiempo llevas estudiando", "cuanto tiempo tienes estudiando"],
+  ["que lenguajes de programacion sabes","cuales lenguajes sabes","que lenguajes sabes", "que lenguaje sabes", "cuales son los lenguajes de programacion que sabes"],
   ["que framework sabes","cuales framework sabes","cuales son los framework que sabes","cuales son los framework que conoces"]
 ]
 
