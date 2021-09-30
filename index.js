@@ -33,7 +33,12 @@ function output(input) {
     .replace(/whats/g, "what is")
     .replace(/please /g, "")
     .replace(/ please/g, "") 
-    .replace(/r u/g, "are you");
+    .replace(/r u/g, "are you")
+    .replace(/á/g, "a")
+    .replace(/é/g, "e")
+    .replace(/í/g, "i")
+    .replace(/ó/g, "o")
+    .replace(/ú/g, "u");
 
     console.log(text);
 

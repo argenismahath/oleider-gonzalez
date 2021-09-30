@@ -6,7 +6,7 @@ const prompts = [
   ["donde vives", "donde vives","donde vives","adonde vives","a donde vives","a donde vives?","a donde vives"],
   ["que edad tienes","cuantos años tienes", "que edad tienes", "que edad tienes", "que edad tienes?","¿cuantos años tienes?", "cuantos años tienes"],
   ["quien eres", "eres humano", "eres un bot", "eres un humano o un bot", "eres un humano o un robot?", "eres un robot o un humano?", "eres un bot o un humano?"],
-  ["quien te creo", "quien te hizo", "quienes te hicieron","quien te creo"],
+  ["quien te creo","quien te hiso", "quien te hizo", "quienes te hicieron","quienes te crearon"],
   [
     "tu nombre por favor",
     "tu nombre",
@@ -25,7 +25,11 @@ const prompts = [
   ["que", "¿por que?", "cómo?", "adonde?", "cuando"],
   ["no","no estoy seguro","tal vez","no gracias"],
   [""],
-  ["jaja","ja","lol","hehe","divertido","chiste"]
+  ["jaja","ja","lol","hehe","divertido","chiste"],
+  ["que estudios tienes","que estudias","cuales son tus estudios","cual es tu nivel de estudio"],
+  ["en que semestre vas","cuanto tiempo tienes estudiando","cuanto tiempo llevas estudiando"],
+  ["que lenguajes de programacion sabes","cuales lenguajes sabes"],
+  ["que framework sabes","cuales framework sabes","cuales son los framework que sabes","cuales son los framework que conoces"]
 ]
 
 // Possible responses, in corresponding order
@@ -59,7 +63,11 @@ const replies = [
   ["Great question"],
   ["That's ok","I understand","What do you want to talk about?"],
   ["Please say something :("],
-  ["Haha!","Good one!"]
+  ["Haha!","Good one!"],
+  ["soy estudiante de Ingenieria en Sistemas computacionales"],
+  ["llevo el 20% de mi Ingenieria completada"],
+  ["se JavaScript Python y algunos de sus framework"],
+  ["de JavaScript se: Vue.JS y React.JS tambien estoy aprendiendo Node.JS y de Python se: Flask y Django"]
 ]
 
 // Random for any other user input
