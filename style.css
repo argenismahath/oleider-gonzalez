@@ -186,7 +186,7 @@ h1{
     margin-left: -100px;
 }
 
-#cabanaBenyo nav p,a, #portafolio nav p, a{
+#cabanaBenyo nav p,a, #portafolio nav p, a,.aBBWings{
     display: block;
     font-family: 'Urbanist', sans-serif;
     text-transform: uppercase;
@@ -196,7 +196,7 @@ h1{
     letter-spacing: 1.2px;
 }
 
-#cabanaBenyo nav a, #portafolio nav a{
+#cabanaBenyo nav a, #portafolio nav a, .aBBWings{
     margin-top: 20px;
     text-decoration: none;
     cursor: pointer;
@@ -217,6 +217,36 @@ h1{
 
 #portafolio nav{
     width: 50%;
+}
+
+#MenuBBWings{
+    margin-top: 160px;
+}
+
+#imgBBWings{
+    float: left;
+}
+
+#descriptions{
+    float: left;
+    margin-left: 40px;
+}
+
+.BBWings{
+    font-size: 60px;
+    font-family: 'Playfair Display', Georgia;
+}
+
+#pImgBBWings{
+margin-top: 30px;
+margin-bottom: 30px;
+font-family: 'Urbanist', sans-serif;
+font-size: 25px;
+letter-spacing: 2px;
+}
+
+.aBBWings:first-child{
+    margin-top: 80px;
 }
 
 #skills{
