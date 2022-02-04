@@ -1,0 +1,20 @@
+/* animacion en la sombra del menu desplegable de lenguaje */
+
+#circlenavmenu:hover{
+    animation: fadeIn 5s infinite;
+}
+
+@keyframes fadeIn {
+    0% {
+        box-shadow: 0px 0px 15px rgb(34, 142, 225);
+
+    }
+    50% {
+        box-shadow: 0px 0px 15px rgb(218, 31, 180);
+
+    }
+    100% {
+        box-shadow: 0px 0px 15px rgb(34, 142, 225);
+
+    }
+}

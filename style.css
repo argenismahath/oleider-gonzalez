@@ -14,7 +14,7 @@ html {
     scrollbar-width: none;
 }
 body{
-    background:  linear-gradient(90deg, #000007,#00001d , #000007);    
+    background:  linear-gradient(306deg, #07274e,#2a976fd1, #39838f, #020250);    
     background-attachment: fixed;
     overflow-x: hidden;
     margin-left: 80px;
@@ -41,12 +41,12 @@ p,a,h1{
 }
 
 #arrowMenu{
-    display: block;
-    position:fixed;
-    font-size: 35px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    font-size: 45px;
-    top: 30px;
+    line-height: 40px;
+    font-size: 25px;
     right:100px;
 }
 
@@ -59,7 +59,7 @@ p,a,h1{
     height: 40px;
     width: 40px;
     border-radius: 50%;
-    background-color: rgba(16, 36, 170, 0.669)
+    background-color: rgb(17 115 185)!important;
 }
 
 #header span{
@@ -122,9 +122,9 @@ p,a,h1{
 h1{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: center;
     font-family: 'Playfair Display', Georgia;
-    font-size: 100px;
+    font-size: 90px;
     font-weight: 500;
 }
 
@@ -316,6 +316,9 @@ letter-spacing: 2px;
     transform: scale(1.2, 1.2);
 }
 #DisplayMenu p a, #DisplayMenu p{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
     transition: all 500ms ease-in;
     font-family: Georgia;
     text-transform: uppercase;
@@ -327,6 +330,10 @@ letter-spacing: 2px;
     letter-spacing: 1.5px;
 }
 #DisplayMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background: linear-gradient(36deg, #1792cd, #ab3090);
     display: none;
 }
 
@@ -342,6 +349,6 @@ letter-spacing: 2px;
     height: 150px;
     width: 150px;
     backdrop-filter: blur(10px);
-    box-shadow: 0px 0px 6px rgba(79, 132, 230, 0.494);
+    box-shadow: 0px 0px 26px rgb(89 90 92 / 49%);
     border-radius: 20px;
 }

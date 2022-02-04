@@ -80,12 +80,12 @@ function navMenu() {
 
     if (togle == true) {
         menu.style.display = 'block';
-        backgnav.style.backgroundColor = 'rgba(20, 30, 87, 0.669)';
+        // backgnav.style.backgroundColor = 'rgba(20, 30, 87, 0.669)';
 
 
     } else {
         menu.style.display = 'none';
-        backgnav.style.backgroundColor = 'rgba(43, 58, 140, 0.669)';
+        // backgnav.style.backgroundColor = 'rgba(43, 58, 140, 0.669)';
     }
 
 }
