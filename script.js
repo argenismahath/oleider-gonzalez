@@ -1,7 +1,7 @@
 window.addEventListener('resize', function (event) {
     let newWidth = window.innerWidth;
     let newHeight = window.innerHeight;
-    console.log(newWidth);
+
 });
 
 
@@ -14,7 +14,7 @@ MenuPhoneDisplay.addEventListener('click', navMenu);
 var tl = gsap.timeline();
 window.onscroll = function () {
     var y = window.scrollY;
-    console.log(y);
+
     gsap.to(".icon-cog", { duration: "1.5", rotate: y });
 };
 
@@ -69,7 +69,6 @@ function navMenu() {
     //Check if browser is Firefox 
     if (navigator.userAgent.search("Firefox") >= 0) {
         // insert conditional Firefox Code here
-        console.log('you´r in firefox');
         menu.style.backgroundColor='rgba(26, 49, 77, 0.8)';
     }
 
