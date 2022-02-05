@@ -14,6 +14,8 @@ html {
     scrollbar-width: none;
 }
 body{
+    height: 100%;
+    width: 100%;
     background:  linear-gradient(306deg, #07274e,#2a976fd1, #39838f, #020250);    
     background-attachment: fixed;
     overflow-x: hidden;
