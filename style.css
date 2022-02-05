@@ -27,11 +27,12 @@ p,a,h1{
 
 
 #header{
+    display: flex;
+    align-items: center;
     height: 80px;
     width: 100vw;
     top: 40px;
     position: fixed;
-    display: flex;
 }
 
 .icon-cog{
@@ -55,7 +56,7 @@ p,a,h1{
     display: block;
     position:fixed;
     cursor: pointer;
-    top: 47px;
+    top: 52px;
     right:102px;
     height: 40px;
     width: 40px;
@@ -89,6 +90,14 @@ p,a,h1{
     display: block;
     position: fixed;
     top: 45px;
+    transition: all 1s ease;
+    
+}
+
+.links p{
+    padding: 5px;
+    border-radius: 20px;
+    transition: all 1s ease;
 }
 
 #errorBox{
