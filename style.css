@@ -15,7 +15,6 @@ html {
 }
 body{
     height: 100%;
-    width: 100%;
     background:  linear-gradient(306deg, #07274e,#2a976fd1, #39838f, #020250);    
     background-attachment: fixed;
     overflow-x: hidden;
@@ -112,6 +111,40 @@ p,a,h1{
     right: 298px;
 }
 
+#proyects_sections{
+    padding: 10px 0px;
+    border-radius: 20px;
+    /* border: 3px solid rgb(82, 5, 160); */
+}
+
+a{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+     color: #2196f3;
+     text-transform: uppercase;
+     Letter-spacing: 4px;
+     text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+}
+
+/* a:hover
+{
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+
+    transition-delay: 1s;
+} */
+
+a span
+{
+     position: absolute;
+     display: block;
+}
+
+
 #about{
     right: 160px;
 }
@@ -153,6 +186,11 @@ h1{
 #projects{
     display: block;
     margin-top: 200px;
+    border-radius: 20%;
+}
+
+.border_ani{
+    border-radius: 20%;
 }
 
 #projects>p{
