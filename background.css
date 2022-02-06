@@ -1,0 +1,310 @@
+body{
+    animation: backgroun_Animation 60.5s infinite;
+}
+
+@keyframes backgroun_Animation{
+    0%{
+        background: linear-gradien(306deg, #13e3e3,#2a9793, #da00c6);
+    }
+    1%{
+        background: linear-gradient(306deg, #14e1e3 ,#2a9891  , #d900c7); 
+        }
+    2%{
+        background: linear-gradient(306deg, #14e1e3 ,#2b998f  , #d800c9);
+    }
+    3%{
+        background: linear-gradient(306deg, #17dee3 ,#2c9a8e , #d600ca);
+    }
+    4%{
+        background: linear-gradient(306deg, #19dce4 ,#2d9b8c , #d500cb);
+    }
+    5%{
+        background: linear-gradient(306deg, #1adbe4 ,#2d9c8a , #d400cc);
+    }
+    6%{
+        background: linear-gradient(306deg, #1cd9e4 ,#2e9d89 , #d100cf);
+    }
+    7%{
+        background: linear-gradient(306deg, #1ed7e4 ,#2f9f87 , #cf00d0);
+    }
+    8%{
+        background: linear-gradient(306deg, #1fd6e5 ,#30a085 , #ce00d2);
+    }
+    9%{
+        background: linear-gradient(306deg, #21d4e5 ,#30a184 , #cc00d3);
+    }
+    10%{
+        background: linear-gradient(306deg, #22d3e5 ,#31a282 , #cb00d4);
+    }
+    11%{
+        background: linear-gradient(306deg, #24d1e6 ,#32a380 , #d100cf);
+    }
+    12%{
+        background: linear-gradient(306deg, #25cfe6 ,#2a976fd1, #cf00d0);
+    }
+    13%{
+        background: linear-gradient(306deg, #27cee6 ,#33a57d , #ce00d2);
+    }
+    14%{
+        background: linear-gradient(306deg, #29cce6 ,#34a77c , #cc00d3);
+    }
+    15%{
+        background: linear-gradient(306deg, #2acbe7 ,#35a87a , #cb00d4);
+    }
+    16%{
+        background: linear-gradient(306deg, #2cc9e7 ,#36a978 , #c900d6);
+    }
+    17%{
+        background: linear-gradient(306deg, #2dc8e7 ,#36aa77 , #c800d7);
+    }
+    18%{
+        background: linear-gradient(306deg, #2fc6e8 ,#36a978 , #c600d9);
+    }
+    19%{
+        background: linear-gradient(306deg, #30c4e8 ,#38ac73 , #c400da);
+    }
+    20%{
+        background: linear-gradient(306deg, #32c3e8 ,#39ae72 , #c200db);
+    }
+    21%{
+        background: linear-gradient(306deg, #34c1e8 ,#3aaf70 , #c000dd);
+    }
+    22%{
+        background: linear-gradient(306deg, #35c0e9 ,#3ab06e , #bf00de);
+    }
+    23%{
+        background: linear-gradient(306deg, #37bee9 ,#3bb16d , #bd00e0);
+    }
+    24%{
+        background: linear-gradient(306deg, #38bce9 ,#3cb26b , #bb00e1);
+    }
+    25%{
+        background: linear-gradient(306deg, #3abbea ,#3db36a , #b800e3);
+    }
+    26%{
+        background: linear-gradient(306deg, #3bb9ea ,#3db468 , #b600e4);
+    }
+    27%{
+        background: linear-gradient(306deg, #3db8ea ,#3eb666 , #b400e6);
+    }
+    28%{
+        background: linear-gradien(306deg, #3fb6ea ,#3fb765 , #b200e7 );
+    }
+    29%{
+        background: linear-gradient(306deg, #40b5eb,#40b863 , #af00e9 );
+    }
+    30%{
+        background: linear-gradient(306deg, #42b3eb ,#40b961 , #ad00ea );
+    }
+    31%{
+        background: linear-gradient(306deg, #43b1eb ,#41ba60 , #ab00ec );
+    }
+    32%{
+        background: linear-gradient(306deg, #45b0ec ,#42bb5e, #a800ed );
+    }
+    33%{
+        background: linear-gradient(306deg, #47aeec ,#43bc5c , #a500ef );
+    }
+    34%{
+        background: linear-gradient(306deg, #49acec ,#43be5b , #a300f0 );
+    }
+    35%{
+        background: linear-gradient(306deg, #4baaed ,#44bf59 , #a000f2 );
+    }
+    36%{
+        background: linear-gradient(306deg, #4da8ed ,#45c058 , #9d00f3 );
+    }
+    37%{
+        background: linear-gradient(306deg, #4fa6ed ,#46c156 , #9a01f5 );
+    }
+    38%{
+        background: linear-gradient(306deg, #51a4ee ,#46c254 , #9704f6);
+    }
+    39%{
+        background: linear-gradient(306deg, #53a2ee ,#47c353 , #9307f8);
+    }
+    40%{
+        background: linear-gradient(306deg, #55a0ee ,#48c551 , #900af9);
+    }
+    41%{
+        background: linear-gradient(306deg, #579eef ,#49c64f , #8d0dfb);
+    }
+    42%{
+        background: linear-gradient(306deg, #599cef ,#4ac74e , #8910fc);
+    }
+    43%{
+        background: linear-gradient(306deg, #5b9aef ,#4ac84c , #8512fe);
+    }
+    44%{
+        background: linear-gradient(306deg, #5d98f0 ,#4bc94a , #722dff);
+    }
+    45%{
+        background: linear-gradient(306deg, #5f96f0 ,#4cca49 , #6013ff);
+    }
+    46%{
+        background: linear-gradient(306deg, #6194f1 ,#4dcb47 , #6413ff);
+    }
+    47%{
+        background: linear-gradient(306deg, #6292f1 ,#4dcd46 , #5b3dff);
+    }
+    48%{
+        background: linear-gradient(306deg, #6490f1 ,#4ece44 , #3b49ff);
+    }
+    49%{
+        background: linear-gradient(306deg, #668ef2 ,#4fcf42 , #0054ff);
+    }
+    50%{
+        background:linear-gradient(306deg, #6a8af2   ,#50d041, #005cff);
+    }
+    51%{
+        background: linear-gradient(306deg, #6c88f3 ,#50d13f , #0064ff);
+    }
+    52%{
+        background: linear-gradient(306deg, #6e86f3 ,#51d23d , #006cff);
+    }
+    53%{
+        background: linear-gradient(306deg, #7084f3 ,#52d33c , #0072ff);
+    }
+    54%{
+        background: linear-gradient(306deg, #7282f4 ,#53d53a , #0078ff);
+    }
+    55%{
+        background: linear-gradient(306deg, #7480f4 ,#53d638 , #007eff);
+    }
+    56%{
+        background: linear-gradient(306deg, #767ef4 ,#54d737 , #0083ff);
+    }
+    57%{
+        background: linear-gradient(306deg, #787cf5 ,#55d835 , #0087ff);
+    }
+    58%{
+        background: linear-gradient(306deg, #7a7af5 ,#56d934 , #008cff);
+    }
+    59%{
+        background: linear-gradient(306deg, #7c79f5 ,#56da32 , #0090ff);
+    }
+    60%{
+        background: linear-gradient(306deg, #7e77f6 ,#57dc30 , #0094ff);
+    }
+    61%{
+        background: linear-gradient(306deg, #8075f6 ,#58dd2f , #0098ff);
+    }
+    62%{
+        background: linear-gradient(306deg, #8273f6 ,#59de2d , #009cff);
+    }
+    63%{
+        background: linear-gradient(306deg, #8471f7 ,#5adf2b , #009fff);
+    }
+    64%{
+        background: linear-gradient(306deg, #866ff7 ,#5ae02a , #00a2ff);
+    }
+    65%{
+        background: linear-gradient(306deg, #886df8 ,#5be128 , #00a6ff);
+    }
+    66%{
+        background: linear-gradient(306deg, #896bf8 ,#5ce226, #00a9ff);
+    }
+    67%{
+        background: linear-gradient(306deg, #8b69f8 ,#5de425 , #00abff);
+    }
+    68%{
+        background: linear-gradient(306deg, #8d67f9 ,#5de523 , #00aeff);
+    }
+    69%{
+        background: linear-gradient(306deg, #8f65f9 ,#5ee622 , #00b1ff);
+    }
+    70%{
+        background: linear-gradient(306deg, #9163f9 ,#5fe720 , #00b4fd);
+    }
+    71%{
+        background: linear-gradient(306deg, #9361fa ,#60e81e , #00b6f8);
+    }
+    72%{
+        background: linear-gradient(306deg, #955ffa ,#60e91d , #00b8f2);
+    }
+    73%{
+        background: linear-gradient(306deg, #975dfa ,#61ea1b , #00bbed);
+    }
+    74%{
+        background: linear-gradient(306deg, #995bfb ,#62ec19 , #00bde8);
+    }
+    75%{
+        background: linear-gradient(306deg, #9b59fb ,#63ed18 , #00bfe3);
+    }
+    76%{
+        background: linear-gradient(306deg, #9d57fb ,#63ee16 , #00bfe3);
+    }
+    77%{
+        background: linear-gradient(306deg, #9f55fc ,#64ef14 , #00bfe3);
+    }
+    78%{
+        background: linear-gradient(306deg, #a153fc ,#65f013 , #00c5d4);
+    }
+    79%{
+        background: linear-gradient(306deg, #a351fc ,#66f111 , #00c7d0);
+    }
+    80%{
+        background: linear-gradient(306deg, #a54ffd ,#67f310 , #00c9cc);
+    }
+    81%{
+        background: linear-gradient(306deg, #a74dfd ,#63e91a , #00cbc8);
+    }
+    82%{
+        background: linear-gradient(306deg, #a94bfd ,#5fe024 , #00cdc4);
+    }
+    83%{
+        background: linear-gradient(306deg, #ab49fe ,#5bd72e , #00cec1);
+    }
+    84%{
+        background: linear-gradient(306deg, #ad47fe ,#57ce38 , #00cec1);
+    }
+    85%{
+        background: linear-gradient(306deg, #af46ff ,#53c543 , #00d0bd);
+    }
+    86%{
+        background: linear-gradient(306deg, #a54ffd ,#50bc4d , #00d0bb);
+    }
+    87%{
+        background: linear-gradient(306deg, #9c58fb ,#48aa61 , #00d0ba);
+    }
+    88%{
+        background: linear-gradient(306deg, #9361fa ,#44a16b , #00d0b8);
+    }
+    89%{
+        background: linear-gradient(306deg, #8a6af8 ,#409876 , #00d0b7);
+    }
+    90%{
+        background: linear-gradient(306deg, #8174f6 ,#39858a , #00d0b5);
+    }
+    91%{
+        background: linear-gradient(306deg, #777df5 ,#357c94 , #00ccc6);
+    }
+    92%{
+        background: linear-gradient(306deg, #6e86f3 ,#31739f , #00c6da);
+    }
+    93%{
+        background: linear-gradient(306deg, #658ff1 ,#2d6aa9 , #00c0ee);
+    }
+    94%{
+        background: linear-gradient(306deg, #5c99f0 ,#2961b3 , #00b8ff);
+    }
+    95%{
+        background: linear-gradient(306deg, #53a2ee ,#2558bd , #00aeff);
+    }
+    96%{
+        background: linear-gradient(306deg, #4aabec ,#224fc7 , #00a2ff);
+    }
+    97%{
+        background: linear-gradient(306deg, #40b4eb ,#1e46d2 , #0087ff);
+    }
+    98%{
+        background: linear-gradient(306deg, #37bee9 ,#1a3ddc , #7f6fff);
+    }
+    99%{
+        background: linear-gradient(306deg, #2ec7e7 ,#1634e6 , #b54deb);
+    }
+    100%{
+        background: linear-gradient(306deg, #1cd9e4 ,#122bf0 , #da00c6);
+    }
+}
+    
