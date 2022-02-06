@@ -26,11 +26,12 @@ p,a,h1{
 
 
 #header{
+    display: flex;
+    align-items: center;
     height: 80px;
     width: 100vw;
     top: 40px;
     position: fixed;
-    display: flex;
 }
 
 .icon-cog{
@@ -149,6 +150,7 @@ a span
 
 
 h1{
+    text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
