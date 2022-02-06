@@ -14,7 +14,6 @@ html {
     scrollbar-width: none;
 }
 body{
-    width: 100%;
     background:  linear-gradient(306deg, #07274e,#2a976fd1, #39838f, #020250);    
     background-attachment: fixed;
     overflow-x: hidden;
@@ -271,6 +270,7 @@ h1{
 }
 
 #descriptions{
+    width: 40%;
     float: left;
     margin-left: 40px;
 }
@@ -357,7 +357,9 @@ letter-spacing: 2px;
 
 
 #DisplayMenu {
-    display: flex;
+    display: flex  !important ;
+
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center ;
     font-family: Georgia;
@@ -368,6 +370,7 @@ letter-spacing: 2px;
     font-size:20px ;
     font-weight: 500;
     letter-spacing: 1.5px;
+    opacity: 0;
 }
 #DisplayMenu{
     background: linear-gradient(36deg, #1792cd, #ab3090);
@@ -389,8 +392,8 @@ letter-spacing: 2px;
 }
 
 .navArrowMenuDisplay{
-    display: block;
-    transition: all 2s ease;
+    opacity: 1 !important;
+    transition: all 0.7s ease;
     position: fixed;
     top: 75px;
     right: 50px;
