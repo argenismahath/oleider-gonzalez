@@ -1,4 +1,4 @@
-
+/* 
  /* hover on menu desplegable */
 #DisplayMenu nav a:hover, #DisplayMenu p:hover a{
     transition: all 0.5s ease;
@@ -10,7 +10,7 @@
 .links:hover p{
     
     animation: fadeIn 5s ease infinite;
-}
+} */
 
 
 /* animacion en la sombra del menu desplegable de lenguaje */

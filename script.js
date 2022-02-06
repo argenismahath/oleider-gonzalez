@@ -1,7 +1,11 @@
+
+
 window.addEventListener('resize', function (event) {
     let newWidth = window.innerWidth;
     let newHeight = window.innerHeight;
 
+    this.document.body.style.width = newWidth + 'px';
+    console.log(newWidth);
 });
 
 

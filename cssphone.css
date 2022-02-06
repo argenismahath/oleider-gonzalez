@@ -1,6 +1,7 @@
 body{
     margin-left: 30px;
-    margin-right: 30px;
+    width: 100% !important ;
+    margin-right: 30px !important;;
 }
 
 .icon-cog{
@@ -140,7 +141,7 @@ body{
     right:0px;
     top: 70px;
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     box-shadow:0px 0px 8px rgba(26, 55, 107, 0.692) inset;
 }
 #DisplayMenu nav{
