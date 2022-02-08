@@ -14,7 +14,7 @@ html {
     scrollbar-width: none;
 }
 body{
-    background:  linear-gradient(306deg, #2a9793,#5db8d3, #7813ff);;    
+    background-position: 100% 100%;
     background-attachment: fixed;
     overflow-x: hidden;
     margin-left: 80px;
@@ -23,7 +23,6 @@ body{
 p,a,h1{
     color: white;
 }
-
 
 #header{
     display: flex;
@@ -77,12 +76,6 @@ p,a,h1{
     margin-top: 120px;
 }
 
-#name{
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 30px;
-    margin-left: 40px;
-}
 .links{
     text-decoration: none;
     font-size: 19px;
@@ -128,35 +121,42 @@ a{
      text-transform: uppercase;
      Letter-spacing: 4px;
      text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-}
-
-
-a span
-{
-     position: absolute;
-     display: block;
-}
-
-
-#about{
-    right: 160px;
-}
-
-#aboutMe{
-    display: block;
-}
-
-
+     font-size: 24px;
+     overflow: hidden;
+    }
+    
+    
+    a span
+    {
+        position: absolute;
+        display: block;
+    }
+    
+    
+    #about{
+        right: 160px;
+    }
+    
+    #aboutMe{
+        display: block;
+    }
+    
+    
 h1{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: 'Playfair Display', Georgia;
     font-size: 90px;
     font-weight: 500;
+    font-family: 'Noto Serif';
+}
+
+#name{
+    font-family: 'Noto Serif';
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-left: 40px;
 }
 
 #aboutMe h1 img{

@@ -1,10 +1,10 @@
 body{
-    animation: backgroun_Animation 60.5s infinite;
+    animation: backgroun_Animation 60s infinite;
 }
 
 @keyframes backgroun_Animation{
     0%{
-        background: linear-gradien(306deg, #13e3e3,#2a9793, #da00c6);
+        background: linear-gradient(306deg, #13e3e3,#2a9793, #da00c6);
     }
     1%{
         background: linear-gradient(306deg, #14e1e3 ,#2a9891  , #d900c7); 
@@ -297,14 +297,26 @@ body{
     97%{
         background: linear-gradient(306deg, #40b4eb ,#1e46d2 , #0087ff);
     }
+    97.5%{
+        background :linear-gradient((306deg, #3ab9ea ,#1b42d7 , #537dff));
+    }
     98%{
         background: linear-gradient(306deg, #37bee9 ,#1a3ddc , #7f6fff);
     }
-    99%{
-        background: linear-gradient(306deg, #2ec7e7 ,#1634e6 , #b54deb);
+    98.5%{
+        background: linear-gradient(306deg, #31c3e8 ,#1739e1 , #9265fa);
+    }
+    98.9%{
+        background: linear-gradient(306deg, #1ccbe9 ,#0067eb , #a45af2);
+    }
+    99.3%{
+        background: linear-gradient(306deg, #01d3e9 ,#007ed3 , #b34ee9);
+    }
+    99.6%{
+        background: linear-gradient(306deg, #00dbe7 ,#008dae , #c23fde);
     }
     100%{
-        background: linear-gradient(306deg, #1cd9e4 ,#122bf0 , #da00c6);
+        background: linear-gradient(306deg, #13e3e3 ,#008fa8 , #cf2bd3);
     }
 }
     
