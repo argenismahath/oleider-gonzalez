@@ -14,7 +14,7 @@ html {
     scrollbar-width: none;
 }
 body{
-    background-size: 100% 100vh !important;
+
     background-attachment: fixed !important;
     overflow-x: hidden;
     margin-left: 80px;
@@ -79,17 +79,15 @@ p,a,h1{
 .links{
     text-decoration: none;
     font-size: 19px;
-    display: block;
+    display: flex;
+    align-items: center;
     position: fixed;
-    top: 45px;
-    transition: all 1s ease;
-    
 }
 
 .links p{
     padding: 5px;
+;
     border-radius: 20px;
-    transition: all 1s ease;
 }
 
 #errorBox{

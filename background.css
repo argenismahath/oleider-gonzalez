@@ -1,5 +1,5 @@
 body{
-    animation: 40s linear .2s backgroun_Animation ;
+    animation: 40s infinite .2s backgroun_Animation ;
 }
 
 @keyframes backgroun_Animation{

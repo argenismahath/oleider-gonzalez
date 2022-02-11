@@ -1,9 +1,13 @@
 
+let newWidth = window.innerWidth;
+let newHeight = window.innerHeight;
+
+let backgroundsize=document.body.style.backgroundSize = newWidth + 'px, ' + newHeight + 'px';;
 
 window.addEventListener('resize', function (event) {
     let newWidth = window.innerWidth;
     let newHeight = window.innerHeight;
-
+    this.document.body.style.backgroundSize = newWidth + 'px ', newHeight + 'px';
     console.log(newWidth);
 });
 
