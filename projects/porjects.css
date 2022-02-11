@@ -1,0 +1,29 @@
+#all{
+ display: grid; 
+}
+
+.container_projects{
+    display: grid;
+    margin-top: 10%;
+}
+
+.header_projests p{
+    display: flex;
+    justify-content: center;
+}
+
+
+img{
+    width: 97%;
+    border-radius: 20px;
+}
+
+#imgBBWings{
+    width: 55%;
+}
+
+.body_projects{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto;
+}
