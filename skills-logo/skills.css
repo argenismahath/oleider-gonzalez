@@ -1,0 +1,40 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: rgba(238, 238, 238, 0);
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.swiper {
+  width: 80%;
+  height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.swiper-slide {
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    width: 36%;
+    top: 0;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .swiper-slide img {
+    display: block;
+    height: 100%;
+  }

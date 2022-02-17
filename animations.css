@@ -7,8 +7,7 @@
 
 }
 
-.links:hover p{
-    
+.links:hover p,.body_projects .desciptions a:hover {
     animation: fadeIn 5s ease infinite;
 } */
 

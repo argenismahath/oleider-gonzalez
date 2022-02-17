@@ -1,5 +1,6 @@
 body{
-    animation: 40s infinite .2s backgroun_Animation ;
+    background: linear-gradient(306deg, #13e3e3,#2a9793, #da00c6);
+
 }
 
 @keyframes backgroun_Animation{
