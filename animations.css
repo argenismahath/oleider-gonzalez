@@ -7,6 +7,10 @@
 
 }
 
+#DisplayMenu{
+    animation:  fadeOut 5s infinite;
+}
+
 #contacts:hover{
     transition: all 1s ease;
     animation: fadeIn 5s infinite;
@@ -36,6 +40,21 @@
     }
     100% {
         box-shadow: 0px 0px 10px rgb(34, 142, 225);
+
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+        box-shadow: inset 0px 0px 10px rgb(34, 142, 225);
+
+    }
+    50% {
+        box-shadow:inset 0px 0px 16px rgb(17, 218, 214);
+
+    }
+    100% {
+        box-shadow:inset 0px 0px 10px rgb(34, 142, 225);
 
     }
 }

@@ -58,11 +58,11 @@
     <section id="aboutMe">
 
         <h1 id="h1">OLEIDER GONZÁLEZ <br> FULL-STACK DEVELOPER</h1>
-        <nav>
+        <div>
             <p id="about2">DESARROLLADOR de sitios web front-end con bases en el back-end, con 2 año de experiencia en
                 el desarrollo de sitios web y programas informÁticos</p>
 
-        </nav>
+            </div>
     </section>
     <nav class="clearfix"></nav>
 
@@ -80,7 +80,7 @@
 
         <section id="projects">
 
-            <iframe id="Iframe_projects" src="projects/projects.html"  frameborder="0"></iframe>
+            <iframe id="Iframe_projects" src="projects/projects.html" frameborder="0"></iframe>
 
         </section>
 
@@ -100,10 +100,10 @@
         <section id="contacts">
 
             <div id="Cv">
-                
-                    <i class="material-icons">file_download</i>
-                    <a id="DownloadCv" href="cv/cv_oleider_2022.pdf" download="cv_oleider_2022">  DESCARGAR CV</a>
-                
+
+                <i class="material-icons">file_download</i>
+                <a id="DownloadCv" href="cv/cv_oleider_2022.pdf" download="cv_oleider_2022"> DESCARGAR CV</a>
+
             </div>
 
         </section>
@@ -112,17 +112,23 @@
     </div>
 
     <nav id="DisplayMenu">
-        <nav>
-            <a class="links_menu_display" href="#projects">
-                TRABAJOS
-            </a>
-            <a class="links_menu_display" href="#aboutMe">
-                SOBRE MI
-            </a>
-        </nav>
+        <div>
 
-        <p><a id="leng" href="index.html">Español</a></p>
-        <p><a id="leng2" href="indexEn.html">English</a></p>
+            <div id="menu_1">
+                <p>SECCIONES</p>
+
+                <a href="#projects" class="Menu_display">TRABAJOS</a>
+                <a class="links_menu_display" href="#aboutMe">SOBRE MI </a>
+            </div>
+
+            <div id="menu_2">
+                <p>LENGUAJES</p>
+
+                <a id="leng" href="index.html">ESPAÑOL</a>
+                <a id="leng2" href="indexEn.html">ENGLISH</a>
+            </div>
+        </div>
+
     </nav>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>

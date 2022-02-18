@@ -1,155 +1,152 @@
-body{
-    margin-left: 30px;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    scrollbar-width: none;
+}
 
-    margin-right: 30px ;
+p, a, #about2{
+    font-size: 10px;
+}
+
+body{
+    min-width: 200px;
+    height: 100% !important;
+    background-attachment: fixed !important;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0%;   
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+    top: 20px;
+    position: fixed;
 }
 
 .icon-cog{
-    font-size: 25px;
+    display: block;
+    position:fixed;
+    color: white;
+    font-size: 20px;
+    left: 10px;
 }
 
 #name{
     font-size: 15px;
 }
 
-.links{
-    display: none;
-}
-
-#header span{
-    display: block;
-}
-
-#h1{
-    font-size: 50px;
-}
-
-#aboutMe h1 img{
-    width: 75px;
-}
-
-#aboutMe nav{
-    width: 90%;
-}
-
-#about2{
-    font-size:24px ;
- }
-
-#projects p, #portafolio p{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 18px;
-    letter-spacing: 2px;
-    text-align: center;
-}
-
-#cabanaBenyo p{
-    text-indent: 0px;
-    text-align: center;
-    font-size: 30px;
-
-}
-
-.Benyotitle{
-    position:block;
-    margin-bottom: 0px;
-    margin-left: 0%;
-    font-weight: 600;
-    font-family: 'Playfair Display', Georgia;
-}
-
-#p2{
-    text-indent: 30px;
-    margin-top: -100px;
-    margin-bottom: 30px;
-}
-
-#cabanaBenyo img, #portafolio img{
-    width: 90%;
-    border-radius: 20px;
-}
-
-#portafolio img{
-    margin-bottom: 30px;
-}
-
-#cabanaBenyo nav, #portafolio nav{
-    margin: 0px auto;
-    float: none;
-    display: block;
-    width: 80%;
-    margin-left: none;
-}
-
-#cabanaBenyo nav p, #portafolio nav p{
-    text-align: center;
-}
-
-#cabanaBenyo nav a, #portafolio nav a{
-    text-align: center;
-}
-
-#skills{
-    font-size: 25px;
-}
-
-.imageSkills1,.imageSkills2{
-    width: 80px;
-    height: 90px;
-}
-
-#Cv nav{
-    flex-wrap: nowrap;
-    width: 50%;
-    min-width: 236px;
-    word-wrap: break-word;
-}
-
-#Cv nav a{
-    font-size: 20px;
-}
-
-#Cv nav i{
-    font-size: 25px;
-}
-
-#DisplayMenu p:first-child{
-    margin: 0px auto;
-    border-bottom: 2px solid white;
-    width: 200px;
-}
-
-#circlenavmenu{
-    display: none;
-}
-
-.links_menu_display {
+/* ----------------- menu ------------ */
+#DisplayMenu {
+    display: flex  !important ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center ;
     font-family: Georgia;
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
     margin-top: 20px;
+    right: -100%;
     font-size:20px ;
     font-weight: 500;
     letter-spacing: 1.5px;
-}
-
-.navArrowMenuDisplay{
-    transition: all 2s ease;
+    transition: all 0.7s ease;
     position: fixed;
-    right:0px;
-    top: 70px;
-    height: 90vh;
+    top: 50px;
+    height: 90%;
     width: 100%;
-    box-shadow:0px 0px 8px rgba(26, 55, 107, 0.692) inset;
-}
-#DisplayMenu nav{
-    display: block;
-    margin-bottom: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 26px rgb(89 90 92 / 49%);
+    border-radius: 20px;
 }
 
-#idiomap{
-    padding-top: 10px;
-    border-top: 1px solid rgba(255, 255, 255, 0.767);
+#DisplayMenu div{
+    height: 85%;
+    display:  grid;
+    grid-template-rows: 1fr, 1fr;
+}
+
+#DisplayMenu div div p{
+    font-size: 20px;
+}
+
+#DisplayMenu div div a{
+    color: #000;
+    height: auto;
+    font-size: 15px;
+    padding: 0 0;
+    letter-spacing: 0;
+}
+
+.links{
+    display: none;
+}
+
+#circlenavmenu{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    right:20px;
+    top: 17px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(17 115 185)!important;
+}
+
+#arrowMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    line-height: 40px;
+    font-size: 15px;
+    right:100px;
+}
+
+/* --------------menu fin --------------- */
+
+#aboutMe{
+    display: grid;
+    grid-template-rows: 1fr 60%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-top: 0px;
+}
+
+#aboutMe div p{
+    font-size: 15px;
+    margin-top: 0px;
+    text-align: justify;
+}
+
+/* --------projects------------ */
+#all{
+    max-width: 99%;
+    overflow: hidden;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#all a {
+    padding: 0;
+}
+
+#all a p{
+    text-align: center;
+    font-size: 18px;
+    padding: 15px 0;
 }
