@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
 .clearfix{
     clear: both;
     float: none;
@@ -14,7 +16,7 @@ html {
     scrollbar-width: none;
 }
 body{
-
+height: auto;
     background-attachment: fixed !important;
     overflow-x: hidden;
     width: 90%;
@@ -203,7 +205,23 @@ h1{
 
 /* ---------------------parte incluida al body main --------------------- */
 
-iframe:nth-child(1){
+#skills_container{
+    display: grid;
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+.Conocimientos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+
+#Iframe_projects{
     width: 99% !important;
     height: 2100px;
     border: none;
@@ -211,49 +229,42 @@ iframe:nth-child(1){
     overflow-y:  hidden;
 }
 
-iframe:nth-child(2){
-    height: 350px;
+
+#Iframe_skills{
+    width: 99% !important;
+    height: 350px !important;
     background-color: rgba(17, 115, 185, 0);
 }
 
-
-#Cv{
+#contacts{
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 150px;
-}
 
-#Cv nav{
-    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    height: 100px;
+    width: 50% ;
+    background: linear-gradient(306deg, rgb(195, 6, 220), rgb(23, 163, 238));
     justify-content: center;
-    align-items: flex-end;
-    width: 50%;
-    min-width: 390px;
-    background-color: rgb(26, 27, 58);
+    justify-self: center;
     border-radius: 20px;
-    border: 1px solid rgb(26, 27, 58);
-    box-shadow: 0px 0px 3px rgb(26, 27, 58);
+    transition: all 1s;
 }
 
-#Cv nav i{
-    font-size: 55px;
-}
 
-#Cv nav a{
-    font-size: 40px;
-    text-decoration: none;
-    margin-left: 20px;
+
+#Cv i, #Cv a{
+    padding: 0 !important;
+    color: rgb(0, 0, 0);
 }
 
 .material-icons{
     color: blanchedalmond;
 }
 
-.imageSkills1,.imageSkills2{
-    margin-top: 100px;
+.carousel_skills{
+    height: auto;
 }
-
 
 
 #DisplayMenu {

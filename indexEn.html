@@ -18,10 +18,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" media="(max-width: 750px)" href="cssphone.css" />
     <link rel="stylesheet" href="animations.css">
+    <link rel="stylesheet" href="background.css">
     <!-- ease scroll -->
+
     <script src="https://unpkg.com/scrollreveal"></script>
-
-
 </head>
 
 <body>
@@ -58,116 +58,70 @@
             </nav>
         </section>
         <nav class="clearfix"></nav>
- 
 
 
-        <section id="projects">
-            <a href="#">
+        <div id="all">
+    
+    
+            <a>
                 <span class="border_ani"></span>
                 <span class="border_ani"></span>
                 <span class="border_ani"></span>
                 <span class="border_ani"></span>
                 <p>PROJECTS</p>
-             </a>
-            <br>
-            <nav id="cabanaBenyo">
-                <p class="Benyotitle">LA CABAÑA </p>
-                <p id="p2" class="Benyotitle">DE BENYO</p>
-                <img id="imgBenyo" src="evidencia/cabana_benyo.PNG" alt="">
-                <nav>
-                <!-- <nav> -->
-                    <p id="pImgBenyo">LOCAL RESTAURANT WEBSITE BUILDING TO GIVE INFORMATION TO THE CLIENTS</p>
-                    <!-- botenes para ver proyecto y repocitorio -->
-                    
-                <a class="aBenyo" href="https://github.com/argenismahath/benyoCabana">WACH REPOSITORY</a>
-                <a class="aBenyo" href="#">WACH WEB</a>
-                <!-- </nav> -->
-            </nav>
-        </nav>
+            </a>
+    
+            <section id="projects">
+    
+                <iframe id="Iframe_projects" src="/projects/projects.html "></iframe>
+    
+            </section>
+    
+        </div>
+    
+    <section id="skills_container">
 
-        <nav id="portafolio">
-            <img id="imgPortafolio" src="evidencia/portafolio.PNG" alt="">
-            <nav>
-                <p id="pPortafolio">PORTFOLIO OF PORJECTS BUILDING WITH HTML5 CSS JS & LIBRARIES</p>
-                <!-- botenes para ver proyecto y repocitorio -->
+        <div class="carousel_skills">
+            <p class="Conocimientos">KNOWLEDGE ABOUT TECHNOLOGIES</p>
+            <div>
 
-                <br>
-                <a class="aPortafolio" href="https://github.com/argenismahath/oleider-gonzalez">WACH REPOSITORY</a>
-                <br>
-                <a class="aPortafolio" href="#">WACH WEB</a>
-            </nav>
-        </nav>
-        <nav class="clearfix"></nav>
+                <iframe id="Iframe_skills" src="skills-logo/skills.html" frameborder="0"></iframe>
 
-        <!-- ---------------------------MENU BB-Wings------------------------------------------- -->
+            </div>
+        </div>
 
-        <nav id="MenuBBWings">
-            <img id="imgBBWings" src="evidencia/menu_bbwings.PNG" alt="">
-            <nav id="descriptions">
-                <p class="BBWings">MENÚ QR</p>
-                <!-- <nav> -->
-                <p id="pImgBBWings" >MENÚ QR CREADO EN HTML, CSS, Y JAVASCRIPT</p>
-                <!-- botenes para ver proyecto y repocitorio -->
+        <section id="contacts">
 
-                <a class="aBBWings" href="https://github.com/argenismahath/babys_wings/tree/master">VER REPOSITORIO</a>
-                <a class="aBBWings" href="https://argenismahath.github.io/babys_wings/">VER WEB</a>
-                <!-- </nav> -->
-            </nav>
-        </nav>
-        <nav class="clearfix"></nav>
-        
+            <div id="Cv">
+                
+                    <i class="material-icons">file_download</i>
+                    <a id="DownloadCv" href="cv/cv_oleider_2022.pdf" download="cv_oleider_2022">  DESCARGAR CV</a>
+                
+            </div>
+
+        </section>
+
     </section>
-    <br>
-    
-    
-    
-    <p id="skills">KNOWLEDGE ABOUT THE TECTOLOGIES</p>
-    <nav class="imageSkills">
+    </div>
 
-        
-        <img class="imageSkills1" src="skill/HTML5.png" alt="">
-        <img class="imageSkills1" src="skill/CSS3.png" alt="">
-        <img class="imageSkills1" src="skill/bootstrap.png" alt="">
-        <img class="imageSkills1" src="skill/js.png" alt="">
-    </nav>
-    
-    <nav class="imageSkillsw">
-        <img class="imageSkills2" src="skill/python.png" alt="">
-        <img class="imageSkills2" src="skill/flask.png" alt="">
-        <img class="imageSkills2" src="skill/git.png" alt="">
-        <img class="imageSkills2" src="skill/github-icon.png" alt="">
-    </nav>
-    
-    
-    <section id="contacts">
-        
-        <nav id="Cv">
-            <nav>
-                <i class="material-icons">file_download</i>
-                <a id="DownloadCv" href="cv/cv_oleider_2021-es.pdf" download="cv_oleider_2021">CV DOWNLOAD</a>
-            </nav>
-        </nav>
-        
-    </section>
     <nav id="DisplayMenu">
-
         <nav>
             <a class="links_menu_display" href="#projects">
                 WORKS
             </a>
             <a class="links_menu_display" href="#aboutMe">
-                ABOUT ME
+            ABOUT ME
             </a>
         </nav>
 
-        <p><a class="leng" href="index.html">SPANISH</a></p>
-        <p><a class="leng" href="indexEn.html">English</a></p>
+        <p><a id="leng" href="index.html">SPANISH</a></p>
+        <p><a id="leng2" href="indexEn.html">ENGLISH</a></p>
     </nav>
 
-    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="background_dinamic.js"></script>
 
+    <script src="script.js"></script>
     <script src="script.js"></script>
 
 </body>

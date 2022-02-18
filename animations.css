@@ -7,6 +7,13 @@
 
 }
 
+#contacts:hover{
+    transition: all 1s ease;
+    animation: fadeIn 5s infinite;
+    box-shadow: inset 0px 0px 7px rgb(4, 19, 49);
+    cursor: pointer;
+}
+    
 .links:hover p,.body_projects .desciptions a:hover {
     animation: fadeIn 5s ease infinite;
 } */

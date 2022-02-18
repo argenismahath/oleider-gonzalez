@@ -31,37 +31,21 @@ ScrollReveal().reveal('#aboutMe', { delay: 500 });
 ScrollReveal().reveal('#about2', { delay: 700 })
 ScrollReveal().reveal('#projects', { delay: 500 });
 
-ScrollReveal().reveal('#cabanaBenyo', { delay: 500 });
-ScrollReveal().reveal('.Benyotitle', { delay: 500 });
-ScrollReveal().reveal('#imgBenyo', { delay: 500 });
-ScrollReveal().reveal('#pImgBenyo', { delay: 500 });
-ScrollReveal().reveal('.aBenyo', { delay: 500 });
-
-ScrollReveal().reveal('#portafolio', { delay: 200 });
-ScrollReveal().reveal('#imgPortafolio', { delay: 300 });
-ScrollReveal().reveal('#pPortafolio', { delay: 300 });
-ScrollReveal().reveal('.aPortafolio', { delay: 500 });
-
-ScrollReveal().reveal('#skills', { delay: 500 });
-ScrollReveal().reveal('.imageSkills', { delay: 500 });
-ScrollReveal().reveal('.imageSkillsw', { delay: 500 });
-
-ScrollReveal().reveal('.imageSkills1', { delay: 500 });
-ScrollReveal().reveal('.imageSkills2', { delay: 700 });
-
 ScrollReveal().reveal('#Cv', { delay: 500 });
 
 
-document.getElementById("DownloadCv").addEventListener("click", lenguaje);
-
+document.getElementById("contacts").addEventListener("click", lenguaje);
 
 function lenguaje() {
+    console.log('hola');
     let lan = document.documentElement.lang;
     let a = document.getElementById('DownloadCv');
     if (lan == 'es') {
-        a.href = "cv/cv_oleider_2021-es.pdf";
+       let pdf= window.location.href="cv/cv_oleider_2022.pdf";
+        download(pdf, "cv_oleider_2022.pdf");
     } else {
-        a.href = "cv/cv_oleider_2021 - english.pdf";
+        let pdf= window.location.href="cv/cv_oleider_2021 - english.pdf";
+        download(pdf, "cv_oleider_2022.pdf");
     }
 }
 // arrowmenu

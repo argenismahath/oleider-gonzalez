@@ -58,4 +58,4 @@ function border() {
 // call funrtion border every 2.7 second
 setInterval(() => {
     border();
-}, 2050);
+}, 2100);
