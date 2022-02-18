@@ -58,7 +58,10 @@ img{
     padding: 10px;
     font-size: 20px;
     text-align: center;
- 
+}
+
+p{
+    text-align: center;
 }
 
 .body_projects .desciptions .botones a{
