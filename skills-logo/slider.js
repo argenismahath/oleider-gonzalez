@@ -1,3 +1,4 @@
+ 
 let slider = tns({
     container: ".my-slider",
     "slideBy": "1",

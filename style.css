@@ -212,6 +212,7 @@ h1{
 }
 
 .Conocimientos{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -113,14 +113,15 @@ body{
 
 #aboutMe{
     display: grid;
-    grid-template-rows: 1fr 60%;
+    bottom: 10px;
+    grid-template-rows: 1fr 50%;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 h1{
-    font-size: 35px;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 1.5px;
     margin-top: 0px;
@@ -149,4 +150,11 @@ h1{
     text-align: center;
     font-size: 18px;
     padding: 15px 0;
+}
+
+.bottomD{
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 100%;
 }

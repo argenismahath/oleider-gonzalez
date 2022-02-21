@@ -21,21 +21,19 @@ ScrollReveal().reveal('#projects', { delay: 500 });
 ScrollReveal().reveal('#Cv', { delay: 500 });
 
 
-document.getElementById("contacts").addEventListener("click", lenguaje);
+// document.getElementById("contacts").addEventListener("click", lenguaje);
 
-function lenguaje() {
+// function lenguaje() {
 
-    let lan = document.documentElement.lang;
-    prompt(lan)
-
-    if (lan == 'es') {
-       let pdf= window.location.href="cv/cv_oleider_2022.pdf";
-        download(pdf, "cv_oleider_2022.pdf");
-    } else if (lan == 'en') {
-        let pdf_en= window.location.href="cv/cv_oleider_2021_EN.pdf";
-        download(pdf_en, "cv_oleider_20222.pdf");
-    }
-}
+//     let lan = document.documentElement.lang;
+//     if (lan == 'es') {
+//        let pdf= window.location.href="cv/cv_oleider_2022.pdf";
+//         download(pdf, "cv_oleider_2022.pdf");
+//     } else if (lan == 'en') {
+//         let pdf_en= window.location.href="cv/cv_oleider_2021_EN.pdf";
+//         download(pdf_en, "cv_oleider_20222.pdf");
+//     }
+// }
 // arrowmenu
 
 document.getElementById("circlenavmenu").addEventListener("click", navMenu);
