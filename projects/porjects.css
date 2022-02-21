@@ -73,4 +73,8 @@ p{
     border-radius: 20px;
 }
 
+/* -------------------- imagenes ---------------------- */
 
+.imgPortafoliocel{
+    display: none;
+}

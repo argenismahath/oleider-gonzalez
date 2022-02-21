@@ -1,5 +1,3 @@
-let newWidth = screen.width;
-let newHeight = window.innerHeight;
 
 // menudesplegablecell
 let MenuPhoneDisplay = document.getElementById('icoMenu');

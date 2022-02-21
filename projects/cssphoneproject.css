@@ -1,0 +1,73 @@
+.projects{
+    display: grid;
+}   
+   .container_projects{
+       display: grid;
+       margin-top: 10%;
+   }
+   
+   .header_projests p{
+       display: flex;
+       justify-content: center;
+   }
+   
+   .Title{
+       font-size: 40px;
+       font-family: 'Mitr', sans-serif;
+   }
+   
+   
+   img{
+       width: 97%;
+       border-radius: 20px;
+   }
+   
+   .body_projects{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: auto auto auto;
+   }
+   
+   .body_projects img{
+       display: flex;
+       justify-self: center;
+   }
+   
+   .body_projects .desciptions{
+       display: grid;
+   }
+   
+   .desciptions .botones{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+   }
+   
+   .body_projects .desciptions p{
+       padding: 10px;
+       font-size: 20px;
+       text-align: center;
+   }
+   
+   p{
+       text-align: center;
+   }
+   
+   .body_projects .desciptions .botones a{
+       width: 70%;
+       color: black;
+       transition: all 0.5s;
+       text-decoration: none;
+       text-align: center;
+       border-radius: 20px;
+   }
+   
+   /* -------------------- imagenes ---------------------- */
+   
+#imgPortafoliocel{
+    display: block;
+}
+
+#imgPortafolio{
+    display: none !important;
+}
