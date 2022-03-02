@@ -75,6 +75,7 @@ p{
 
 /* -------------------- imagenes ---------------------- */
 
-.imgPortafoliocel{
+#imgPortafoliocel{
     display: none;
+    opacity: 1;
 }

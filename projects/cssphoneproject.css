@@ -12,5 +12,6 @@
 }
 
 #imgPortafolio{
-    display: none !important;
+    display: none;
+    opacity: 0;
 }

@@ -1,3 +1,5 @@
+let newWidth = screen.width;
+let newHeight = window.innerHeight;
 
 // menudesplegablecell
 let MenuPhoneDisplay = document.getElementById('icoMenu');
@@ -26,6 +28,8 @@ ScrollReveal().reveal('#Cv', { delay: 500 });
 // function lenguaje() {
 
 //     let lan = document.documentElement.lang;
+//     prompt(lan)
+
 //     if (lan == 'es') {
 //        let pdf= window.location.href="cv/cv_oleider_2022.pdf";
 //         download(pdf, "cv_oleider_2022.pdf");
