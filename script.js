@@ -1,5 +1,10 @@
+// mensaje de renovacion de pagina
+
+alert('ME DISCULPUS CON LOS PEQUEÑOS ERRORES EN MI PORTAFOLIO, ACTUALMENTE ESTAMOS TRABAJANDO EN ELLO. AGRADECEMOS TU COMPRENCION')
+
 let newWidth = screen.width;
 let newHeight = window.innerHeight;
+
 
 // menudesplegablecell
 let MenuPhoneDisplay = document.getElementById('icoMenu');
