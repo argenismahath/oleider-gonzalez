@@ -15,7 +15,8 @@ body{
     background-attachment: fixed !important;
     overflow-x: hidden;
     width: 100%;
-    margin: 0%;   
+    margin-left: 20px;
+    margin-top: 0%;
 }
 
 #header{
@@ -24,7 +25,7 @@ body{
     justify-content: space-between;
     height: 30px;
     width: 100%;
-    top: 20px;
+    top: 56px;
     position: fixed;
 }
 
@@ -32,7 +33,7 @@ body{
     display: block;
     position:fixed;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
     left: 10px;
 }
 
@@ -170,14 +171,22 @@ h1{
 }
 
 .mobile img{
-    width: 20px;
-    
-    margin-right: 10px;
-
-    height: auto;
+    width: 30px;
+    height: 30px;
 }
 
     /* menu desplegable */
+.header-logo{
+    display: flex;
+    align-items: center;
+}
+
+.header-logo a p{
+    font-size: 23px !important;
+}
+
+
+
     .header-menu-open{
         display: flex;
         flex-direction: row-reverse;

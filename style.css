@@ -37,6 +37,12 @@ p,a,h1{
     position: fixed;
 }
 
+/* cabecera */
+.header-container div a{
+    display: flex;
+    align-items: center;
+}
+
 .header-containe .header-menu{
     display: flex;
     flex-wrap: nowrap;
