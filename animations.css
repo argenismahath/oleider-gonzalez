@@ -101,3 +101,21 @@ a span:nth-child(4){
 .header-menu nav ul li:hover a {
     color: #252829;
 }
+
+.animation_nav{
+    /* add animation nav_animation to play jiust one time */
+    animation: nav_animation 1s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes nav_animation{
+    from{
+        left: 100%;
+
+    }
+    to{
+    left: 50%;
+
+    }
+}

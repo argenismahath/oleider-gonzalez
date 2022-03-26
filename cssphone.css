@@ -196,15 +196,17 @@ h1{
 
 
  .header-menu-open nav{
-     position: absolute;
     height: 100%;
     width: 49%;
     display: block;
     position: fixed;
     border-radius: 25px;
+    transition: all 0.7s ease;
     background-color: rgba(25, 153, 147, 0.932);
-    
 }
+
+
+
 
 .header-menu-open nav ul{
     display: block;

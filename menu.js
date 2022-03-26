@@ -2,6 +2,7 @@
 //
 //
 let menu_mobile = document.querySelector('.mobile');
+let nav = document.querySelector('.header-menu nav');
 let lista_menu_mobile = document.querySelectorAll('.header-menu nav ul li');
 let menu_display = document.querySelector('.header-menu');
 
@@ -18,6 +19,12 @@ menu_mobile.addEventListener('click', () => {
         // add active class
         menu_display.style.display = 'flex';
         menu_display.classList.add('header-menu-open');
+
+        //add animation to nav
+        nav.classList.add('animation_nav');
+        // setTimeout(() => {
+        //     nav.style.left = '50%';
+        // }, 900);
         // change counter to true
         counter_click = true;
     } else {
@@ -26,6 +33,9 @@ menu_mobile.addEventListener('click', () => {
         for (let i = 0; i < lista_menu_mobile.length; i++) {
             lista_menu_mobile[i].style.display = 'none';
         }
+        // remove animation to nav
+        nav.classList.remove('animation_nav');
+
         counter_click = false;
 
         menu_display.classList.remove('header-menu-open');
