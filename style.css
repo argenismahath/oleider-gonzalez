@@ -38,7 +38,7 @@ p,a,h1{
 }
 
 /* cabecera */
-.header-container div a{
+.header-container{
     display: flex;
     align-items: center;
 }
@@ -239,7 +239,7 @@ h1{
     
 #projects{
     width: 100%;
-    height: 2900px;
+    height: 2920px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -265,7 +265,7 @@ h1{
 
 #Iframe_projects{
     width: 99% !important;
-    height: 2900px;
+    height: 2920px;
     border: none;
     overflow-x: hidden;
     overflow-y:  hidden;
