@@ -28,12 +28,61 @@ p,a,h1{
 
 #header{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 80px;
-    width: 100%;
-    top: 40px;
+    height: 100px;
+    width: 90%;
+    top: 10px;
+    flex-wrap: nowrap;
     position: fixed;
 }
+
+.header-containe .header-menu{
+    display: flex;
+    flex-wrap: nowrap;
+
+    width: 48%;
+    height: 100%;
+    background-color: #1a1a1a;
+    padding: 0 10px;
+}
+
+.header-menu nav ul
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 2px;
+    list-style: none;
+}
+
+.mobile{
+    display: none;
+}
+
+.header-menu nav ul li{
+    transition: all 1s;
+    list-style: none;
+    display: inline-block;
+    padding-right: 25px;
+    border-right: #1a1a1a 1px solid;
+    font-size: 18px !important;; 
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.header-menu nav ul li a{
+    transition: all 0.5s;
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: white;
+    size: 11px !important;
+}
+
 
 .icon-cog{
     display: block;
@@ -73,7 +122,7 @@ p,a,h1{
     right:50px;
 }
 
-#aboutMe{
+.aboutMe{
     height: 100vh;
     margin-top: 120px;
 }
@@ -116,12 +165,12 @@ p,a,h1{
 a{
     position: relative;
     display: inline-block;
-    padding: 15px 30px;
+    /* padding: 15px 30px; */
      color: #2196f3;
      text-transform: uppercase;
      Letter-spacing: 4px;
      text-decoration: none;
-     font-size: 24px;
+     /* font-size: 24px; */
      overflow: hidden;
     }
     
@@ -137,7 +186,7 @@ a{
         right: 160px;
     }
     
-    #aboutMe{
+    .aboutMe{
         display: grid;
     }
     
@@ -159,42 +208,29 @@ h1{
     margin-left: 40px;
 }
 
-#aboutMe h1 img{
+.aboutMe h1 img{
     margin-top: 50px;
     width: 150px;
 }
 
-#aboutMe nav{
+.aboutMe nav{
     display: block;
     float: right;
     width: 50%;
     margin-top: 180px;
 }
 
- #about2{
+ .about_parrafo{
      font-family: 'Urbanist', sans-serif;
      text-transform: uppercase;
      font-size:30px ;
      font-weight:500;
      letter-spacing: 1.5px;
     }
+
+
     
-#all a{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-#projects>a p{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 25px;
-    letter-spacing: 2px;
-}
-
-
+    
 #projects{
     width: 100%;
     height: 2900px;
@@ -326,3 +362,22 @@ h1{
     width: 100%;
     height: 100px;
 }
+
+
+
+    #all a{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        margin-top: 20px;
+    }
+    
+    #projects>a p{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+

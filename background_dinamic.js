@@ -22,7 +22,7 @@ function border() {
 
     // --------------------------------------------
     // fourth border
-    border_get[4].style.bottom='-120%';
+    // border_get[4].style.bottom='-120%';
     border_get[4].style.bottom='120%';
     border_get[4].style.transition='0.7s';
     border_get[4].style.transitionDelay='1.4s';

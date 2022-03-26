@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <link rel="shortcut icon" href="icono.ico">
@@ -16,46 +16,57 @@
     <link rel="stylesheet" href="fonts/styleicon.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" media="(max-width: 750px)" href="cssphone.css" />
+    <link rel="stylesheet" media="(max-width: 900px)" href="cssphone.css" />
     <link rel="stylesheet" href="animations.css">
     <link rel="stylesheet" href="background.css">
     <!-- ease scroll -->
 
     <script src="https://unpkg.com/scrollreveal"></script>
+
+
 </head>
 
 <body>
     <header id="header">
-        <!-- name and ico -->
-        <i class="icon-cog"></i>
-        <p id="name">OLEIDER GONZALEZ</p>
+        <!-- make a header -->
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="index.html">
+                    <i class="icon-cog"></i>
+                    <p id="name">OLEIDER GONZALEZ</p>
 
-        <!-- link -->
-        <span id="icoMenu" class="material-icons">
-            menu
-        </span>
+                    <!-- link -->
+                    <span id="icoMenu" class="material-icons">
+                        menu
+                    </span>
+                </a>
+            </div>
+        </div>
 
-        <nav id="circlenavmenu">
-            <i id="arrowMenu" class="material-icons">
-                translate
-            </i>
-        </nav>
 
-        <a id="project" class="links" href="#projects">
-            <p>WORKS</p>
-        </a>
-        <a id="about" class="links" href="#aboutMe">
-            <p>ABOUT ME</p>
-        </a>
-
-    </header>
-    
-    <section id="aboutMe">
+        <div class="mobile">
+            <img src="/images/1682141.png" alt="menu" srcset="">
+        </div>
+            <div class="header-menu">
+                <div></div>
+                <nav>
+                    <ul>
+                        <li><a href="#projects">WORKS</a></li>
+                        <li><a href="#aboutMe"> ABOUT ME </a></li>
+                        <li><a href="index.html"> ESPAÑOL</a></li>
+                        <li><a href="indexEn.html">ENGLISH</a></li>
+                    </ul>
+                </nav>
+            </div>
         
-        <h1 id="h1">OLEIDER GONZÁLEZ <br> FULL-STACK DEVELOPER</h1>
-        <nav>
-            <p id="about2">WEBSITES DEVELOPER FULL-STACK WITH 2 YEARS OF EXPERIENCE IN SOFTWARE DEVELOPMEN </p>
-            </nav>
+    </header>
+
+    <section  class="aboutMe">
+        
+        <h1 class="h1">OLEIDER GONZÁLEZ <br> FULL-STACK DEVELOPER</h1>
+        <div>
+            <p class="about_parrafo">WEBSITES DEVELOPER FULL-STACK WITH 2 YEARS OF EXPERIENCE IN CREATING CREATIVE WEBSITES</p>
+        </div>
         </section>
         <nav class="clearfix"></nav>
 
@@ -73,7 +84,7 @@
     
             <section id="projects">
     
-                <iframe id="Iframe_projects" src="/projects/projects.html "></iframe>
+                <iframe id="Iframe_projects" src="/projects/projectsEN.html"></iframe>
     
             </section>
     
@@ -104,24 +115,8 @@
     </section>
     </div>
 
-    <nav id="DisplayMenu">
-        <nav>
-            <a class="links_menu_display" href="#projects">
-                WORKS
-            </a>
-            <a class="links_menu_display" href="#aboutMe">
-            ABOUT ME
-            </a>
-        </nav>
-
-        <p><a id="leng" href="index.html">SPANISH</a></p>
-        <p><a id="leng2" href="indexEn.html">ENGLISH</a></p>
-    </nav>
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
     <script src="background_dinamic.js"></script>
-
-    <script src="script.js"></script>
     <script src="script.js"></script>
 
 </body>
